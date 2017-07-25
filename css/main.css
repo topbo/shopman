@@ -59,11 +59,12 @@
 	padding:22px 31px 28px 147px;
 }
 .search_text{
-	width: 356px;
+	width: 354px;
 	height: 36px;
 	background-color: #fff;
-	padding-left: 4px;
+	padding-left: 6px;
 }
+#search_text::-webkit-input-placeholder { color:#d4d4d4; }
 .search_btn{
 	width: 69px;
 	height: 36px;
@@ -689,6 +690,7 @@ footer i{
 .screening .more2{
 	width: 38px;
 	display: inline-block;
+	margin-left:530px;
 	background: url(../img/icon/sj_grey.gif)right center no-repeat;
 	
 }

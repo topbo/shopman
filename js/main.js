@@ -35,10 +35,6 @@ $(document).ready(function(){
 		$(this).removeClass('shopClass_active');
 	});
 
-
-
-
-
 	// 首页轮播图
 	function animate(){
 		var box = $(".imgBox");
@@ -47,5 +43,12 @@ $(document).ready(function(){
 	function play(){
 
 	}
+
+	$(".nav li").on("mouseover",function(){
+		$(this).addClass('active');
+	});
+	$(".nav li").on("mouseout",function(){
+		$(this).removeClass('active');
+	});
 
 });
